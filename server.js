@@ -10,5 +10,3 @@ app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 app.use(routes);
 app.listen(3001);
-
-//hello world

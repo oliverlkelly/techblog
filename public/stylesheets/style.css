@@ -1,0 +1,79 @@
+:root{
+    background-color: white;
+    color: black;
+}
+nav{
+    background-color: #231010;
+    height: 8rem;
+    width: 100%;
+}
+.mainTitle{
+    background-color: #D9EAD3;
+    color: #231010;
+    height: 4.5rem;
+    margin-top: 1.75rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem grey;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+    float: left;
+    cursor: default;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    font-size: 3rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #D9EAD3;
+    cursor: pointer;
+}
+body{
+    background-color: #D9EAD3;
+}
+article{
+    border: 5px solid #231010;
+}
+.logInOutBox{
+    border: 5px solid #231010;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.logInOutBox h2{
+    background-color: #231010;
+    color: #D9EAD3;
+    font-size: 2rem;
+}
+.loginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+.label{
+    font-weight: bold;
+    color: #231010;
+}
+.formElement{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #231010;
+}
